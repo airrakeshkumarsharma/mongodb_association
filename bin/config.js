@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connect to DB and instantiate models    
-mongoose.connect('mongodb://Rakesh:Ramayana123@ds347467.mlab.com:47467/mounty', {useNewUrlParser: true});
+mongoose.connect('db details', {useNewUrlParser: true});
 var db = mongoose.connection;
 
 if(!db) 
